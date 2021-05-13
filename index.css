@@ -1,3 +1,49 @@
 body {
-  overflow-x: hidden;
+  margin: 0;
+  z-index: 0;
+  background-image: url("home/media/background2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #CEC6C0;
+}
+
+#COPE {
+  position: absolute;
+  padding: none;
+  font-size: 96px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  width: 1500px;
+  margin-left: 100px;
+  margin-top: 400px;
+  text-shadow: 5px 5px 5px black;
+}
+
+#topbar {
+  z-index: 2;
+  height: 5vh;
+  width: 100vw;
+  background-color: #CEC6C0;
+  position: fixed;
+}
+
+#nextbar {
+  z-index: 3;
+  height: 15vh;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  margin-top: 5vh;
+}
+
+#desc {
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  z-index: 2;
+  font-size: 30px;
+  color: #DDDDDD;
+  margin-top: 650px;
+  margin-left: 100px;
+  text-shadow: 2px 2px 2px black;
+  width: 60vw;
 }
