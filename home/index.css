@@ -52,27 +52,26 @@ body {
   text-decoration: underline;
 }
 
-
 #desc {
   font-family: 'Varela Round', sans-serif;
   position: absolute;
   z-index: 2;
-  font-size: 30px;
+  font-size: 2vw;
   color: #DDDDDD;
-  margin-top: 650px;
-  margin-left: 100px;
+  margin-top: 35vw;
+  margin-left: 5vw;
   text-shadow: 2px 2px 2px black;
-  width: 1000px;
+  width: 65vw;
 }
 
 #COPE {
   position: absolute;
   padding: none;
-  font-size: 96px;
+  font-size: 5vw;
   color: white;
   font-family: 'Varela Round', sans-serif;
-  width: 1500px;
-  margin-left: 100px;
-  margin-top: 400px;
+  width: 75vw;
+  margin-left: 5vw;
+  margin-top: 20vw;
   text-shadow: 5px 5px 5px black;
 }
