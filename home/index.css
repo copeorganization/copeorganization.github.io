@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  z-index: 0;
+  background-image: url("media/background2.png");
+  background-size: 1920px 1200px;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+#topbar {
+  z-index: 2;
+  height: 3vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #CEC6C0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nextbar {
+  z-index: 3;
+  height: 9vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: white;
+  position: absolute;
+  margin-top: 3vw;
+}
+
+#logo {
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  font-size: 5vw;
+  color: black;
+  top: 1.4vw;
+  left: 3vw;
+  z-index: 3;
+}
+
+.navbar {
+  font-family: 'Varela Round', sans-serif;
+  z-index: 3;
+  font-size: 3.5vw;
+  position: absolute;
+  color: #CEC6C0;
+  top: 5.5vw;
+  text-decoration: none;
+}
+
+.navbar:hover {
+  text-decoration: underline;
+}
+
+
+#desc {
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  z-index: 2;
+  font-size: 30px;
+  color: #DDDDDD;
+  margin-top: 650px;
+  margin-left: 100px;
+  text-shadow: 2px 2px 2px black;
+  width: 1000px;
+}
+
+#COPE {
+  position: absolute;
+  padding: none;
+  font-size: 96px;
+  color: white;
+  font-family: 'Varela Round', sans-serif;
+  width: 1500px;
+  margin-left: 100px;
+  margin-top: 400px;
+  text-shadow: 5px 5px 5px black;
+}

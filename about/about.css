@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  z-index: 0;
+  background-size: 1920px 1200px;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vw;
+  font-family: 'Varela Round', sans-serif;
+}
+
+hr {
+  width: 75vw;
+  height: 7px;
+  background-color: #CEC6C0;
+  margin-top: -2vw;
+  border: none;
+}
+
+p {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  width: 85vw;
+  margin: auto;
+  margin-top: 2vw;
+}
+
+#topbar {
+  z-index: 2;
+  height: 3vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #CEC6C0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nextbar {
+  z-index: 3;
+  height: 9vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: white;
+  position: absolute;
+  margin-top: 3vw;
+}
+
+#logo {
+  font-family: 'Varela Round', sans-serif;
+  position: absolute;
+  font-size: 5vw;
+  color: black;
+  top: 1.4vw;
+  left: 3vw;
+  z-index: 3;
+}
+
+.navbar {
+  font-family: 'Varela Round', sans-serif;
+  z-index: 3;
+  font-size: 3.5vw;
+  position: absolute;
+  color: #CEC6C0;
+  top: 5.5vw;
+  text-decoration: none;
+}
+
+.navbar:hover {
+  text-decoration: underline;
+}
+
+#bottom-bar {
+  z-index: 2;
+  height: 3vw;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: #CEC6C0;
+  position: absolute;
+  top: 110vw;
+  left: 0;
+}
